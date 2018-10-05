@@ -1,0 +1,23 @@
+.product-group-selector {
+    margin-top: 2rem;
+}
+
+.product-group-selector, .page-links {
+    text-align: center;
+}
+
+@media only screen and (min-width: 576px){
+    .product-group-selector {
+        text-align: left;
+    }
+
+    .page-links {
+        text-align: right;
+    }
+
+    .pagination-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

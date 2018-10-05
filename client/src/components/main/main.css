@@ -1,0 +1,30 @@
+.main-content {
+    width: 100%;
+    padding: 1.6rem;
+}
+
+.main-content__container {
+    width: 100%;
+}
+
+.product-count {
+    margin-bottom: 4rem;
+    border-bottom: 3px solid #FFE0B2;
+    display: inline-block;
+    font-size: 1.6rem;
+    padding-bottom: 4px;
+}
+
+@media only screen and (min-width: 768px) {
+    .main-content {
+        padding: 3.2rem;
+        padding: 3.2rem;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .main-content {
+        padding: 5.6rem;
+        padding: 5.6rem;
+    }
+}
