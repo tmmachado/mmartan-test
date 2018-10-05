@@ -8,12 +8,11 @@ const app = express();
 // allow cross-origin requests
 app.use(cors());
 
+app.use(express.static('./public'));
+
 // bind express with graphql
 app.use('/graphql', graphqlHTTP({
-    schema,
-    graphiql: true
+    schema
 }));
 
-app.listen(4000, () => {
-    console.log('now listening for requests on port 4000');
-});
+app.listen(80);
