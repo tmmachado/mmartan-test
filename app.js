@@ -6,7 +6,7 @@ const cors = require('cors');
 const app = express();
 
 // allow cross-origin requests
-// app.use(cors());
+app.use(cors());
 
 app.use(express.static('./public'));
 
@@ -15,4 +15,4 @@ app.use('/graphql', graphqlHTTP({
     schema
 }));
 
-app.listen(80);
+app.listen(process.env.PORT);
