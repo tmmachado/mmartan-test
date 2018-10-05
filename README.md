@@ -10,14 +10,18 @@ It's advisable that you start from the server app, since you'll need it to fetch
 
 ## Prerequisites
 
-Make sure to have node installed on your computer as it'll be necessary to run both the client and server apps.
+Make sure to have node installed on your computer as it'll be necessary to run both the client and server apps. Next, choose a folder to clone the app and run:
+
+``````
+git clone https://github.com/tmmachado/mmartan-test.git
+``````
 
 ## Server installation
 
 Execute the commands bellow to get the server up and running locally:
 
 ``````
-cd mmartan-spa
+cd mmartan-test
 cd server
 npm install
 node app
@@ -30,7 +34,7 @@ You should be able to see a "Connection has been established successfully." mess
 Execute the commands bellow to get the client up and running locally:
 
 ``````
-cd mmartan-spa
+cd mmartan-test
 cd client
 npm install
 npm start
